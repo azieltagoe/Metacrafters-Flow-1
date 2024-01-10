@@ -1,0 +1,5 @@
+import Farm from 0x05
+
+pub fun main(): {String: Farm.Yield} {
+  return Farm.details
+}
