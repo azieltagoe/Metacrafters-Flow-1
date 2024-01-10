@@ -1,0 +1,12 @@
+import Farm from 0x05
+
+transaction(crop: String, month: String, quantity: Int) {
+
+  prepare(acct: AuthAccount) {
+ 
+  }
+
+  execute {
+  Farm.addYield(crop: crop, month: month, quantity: quantity)
+ }
+}
