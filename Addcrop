@@ -1,0 +1,13 @@
+import Farm from 0x05
+
+transaction(crop:String) {
+
+  prepare(acct: AuthAccount) {
+    
+  }
+
+  execute {
+    Farm.addCrops(crop: crop)
+
+  }
+}
